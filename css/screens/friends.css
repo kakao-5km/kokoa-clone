@@ -1,0 +1,10 @@
+#friends-disply-link {
+  text-align: center;
+  display: block;
+  background-color: rgb(247, 247, 247);
+  padding: 15px 8px;
+}
+
+#friends-disply-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
