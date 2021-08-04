@@ -6,6 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Friends - kokoa Talk</title>
+
+<style>
+    .user-component{
+        justify-content: space-between;
+    }
+    
+    .user-component,
+    .user-component__column:first-child{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .user-component__avatar{
+        
+        width: 70px;
+        height: 70px;
+        border-radius: 30px;
+        margin-right: 20px;
+    }
+
+.user-component__title{
+    font-weight:600;
+    font-size: 22px;
+}
+
+.user-component__subtitle{
+    margin-top: 5px;
+    font-size: 17px;
+    color: rgba(0,0,0,0.5);
+    }
+
+.user-component__avatar--xl{
+width:80px;
+height: 80px;
+}
+
+.user-component__avatar--sm{
+    width:60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.user-component__title--not-bold{
+    font-weight: 400;
+}
+
+.friends-screen__channel{
+   margin-top: 25px;
+   border-top: 1px solid rgba(0, 0, 0, 0.2);
+   padding-top: 15px;
+}
+
+.friends-screen__channel-header{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    color:rgba(0, 0 , 0, 0.5)
+}
+
+.user-component__column:last-child{
+    color:rgba(0, 0 , 0, 0.5)
+}
+
+</style>
+
 </head>
 <body>
     <div class="status-bar">
@@ -42,19 +108,50 @@
     <i class="fas fa-chevron-right fa-xs"></i>
 </a>
 
-
+<main class="friends-screen">
 <div class="user-component">
     <div class="user-component__column">
         <img 
-        src="https://kmug.co.kr/data/file/design/data_design_Apple_Logo.png"
-        class="user-component__avatar" />
+        src="애플.jpg"
+        class="user-component__avatar user-component__avatar--xl" />
         <div class="user-component__text">
             <h4 class="user-component__title">5Km</h4>
+           <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
         </div>
 
     </div>
+    
     <div class="user-component__column"></div>
 </div>
+
+
+<div class="friends-screen__channel">
+    <div class="friends-screen__channel-header">
+   <span>Channel</span>
+   <i class="fas fa-chevron-up fa-xs"></i>
+ </div>
+
+ <div class="user-component">
+    <div class="user-component__column">
+        <img 
+        src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/qhfrm1070-avatar.jpg"
+        class="user-component__avatar user-component__avatar--sm" />
+        <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+           </div>
+
+    </div>
+    
+    <div class="user-component__column">
+        <span>2</span>
+        <i class="fas fa-chevron-right fa-xs"></i>
+
+    </div>
+</div>
+
+
+
+</main>
 
   <nav class="nav">
     <ul class="nav__list">
