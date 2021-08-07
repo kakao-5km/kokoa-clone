@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 25px;
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -12,4 +13,16 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+  position: relative;
+}
+
+.screen-header__icons__dot span {
+  display: flex;
+  position: absolute;
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  right: -5px;
+  bottom: 20px;
 }
