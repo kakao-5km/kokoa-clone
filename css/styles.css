@@ -5,12 +5,14 @@
 @import "components/screen-header.css";
 @import "components/badge.css";
 @import "components/user-component.css";
+@import "components/find-icons.css";
 
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/variables.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
 body {
   color: rgb(51, 51, 51);
