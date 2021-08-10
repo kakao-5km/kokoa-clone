@@ -26,3 +26,11 @@
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
 }
+
+#chat-screen .status-bar {
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(137, 176, 194);
+}
