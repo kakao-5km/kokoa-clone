@@ -1,0 +1,16 @@
+#chat-screen {
+  background-color: rgb(137, 176, 194);
+  height: 1000vh;
+}
+
+#chat-screen .alt-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 20px;
+  background-color: rgb(137, 176, 194);
+}
+
+.main-chat {
+  margin-top: 188px;
+}
