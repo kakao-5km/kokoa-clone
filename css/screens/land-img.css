@@ -1,0 +1,11 @@
+.landscape-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+  top: 0px;
+  opacity: 0.5;
+  z-index: -99;
+}
